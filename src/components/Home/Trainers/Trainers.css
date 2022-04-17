@@ -15,6 +15,7 @@
 .trainer-title {
     color: deeppink;
     margin-top: 10px;
+    text-align: center;
 }
 
 .trainer-title:hover {
