@@ -7,7 +7,8 @@ h1:hover {
     transition-duration: 1s;
 }
 
-.container {
+.container-badsha {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     border: 5px solid;
@@ -16,6 +17,6 @@ h1:hover {
     margin-left: 100px;
     margin-right: 30px;
     margin-top: 15px;
-    background-color: papayawhip;
+    background-color: coral;
     color: crimson;
 }

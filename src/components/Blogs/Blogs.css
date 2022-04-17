@@ -3,6 +3,7 @@ h2 {
     margin-right: 30px;
 }
 
-.container {
+.blog-container {
     border: 5px solid;
+    text-align: center;
 }
