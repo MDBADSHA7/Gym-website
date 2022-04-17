@@ -1,0 +1,22 @@
+.trainer-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:570px) {
+    .trainer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.trainer-title {
+    color: deeppink;
+    margin-top: 10px;
+}
+
+.trainer-title:hover {
+    color: orangered;
+}

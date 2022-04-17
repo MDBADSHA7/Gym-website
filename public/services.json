@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Stelleno 12Y",
+        "seller": "Samphony",
+        "price": 295,
+        "img": "https://t3.ftcdn.net/jpg/03/79/60/48/240_F_379604883_BxKJPYDvmctUb5c6Odyy0GP3u6UQGtpI.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Waltone 35C",
+        "seller": "Waltone",
+        "price": 210,
+        "img": "https://t4.ftcdn.net/jpg/02/17/51/67/240_F_217516764_qQ3vOqgX7ym28cPi4HOO6rMImJDh6k7n.jpg"
+    },
+    {
+        "id": 3,
+        "name": "HTC pro - 38",
+        "seller": "HTC",
+        "price": 287,
+        "img": "https://t4.ftcdn.net/jpg/02/56/48/13/240_F_256481379_iaw5aBbMgWmzmR2VX2vyGVP7BTH70L7Y.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Samphony F6",
+        "seller": "Samphony",
+        "price": 138,
+        "img": "https://t3.ftcdn.net/jpg/03/83/33/22/240_F_383332241_LTCIz5f9mrfHMscavkqfVQHB3GOt5yAH.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nokia-31V",
+        "seller": "Nokia",
+        "price": 205,
+        "img": "https://t3.ftcdn.net/jpg/00/54/90/26/240_F_54902690_CV2cLSbeXdnGJVwKq2meW5csk4QFiRQk.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Saomi note-8",
+        "seller": "Saomi",
+        "price": 300,
+        "img": "https://t3.ftcdn.net/jpg/03/79/60/50/240_F_379605010_Hw2eEUjxZrBZi1Y4KB4TWydcxtdh2z49.jpg"
+    }
+]

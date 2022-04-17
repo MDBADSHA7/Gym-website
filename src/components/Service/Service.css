@@ -1,0 +1,7 @@
+.service {
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
