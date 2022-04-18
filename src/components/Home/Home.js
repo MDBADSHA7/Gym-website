@@ -1,8 +1,9 @@
 import React from 'react';
 import Banner from '../Home/Trainers/Trainers';
 import Trainers from '../Home/Banner/Banner';
-import Footer from '../../Footer/Footer';
 import ExtraSection from '../../ExtraSection/ExtraSection';
+import Footer from '../../Footer/Footer'
+
 
 const Home = () => {
     return (

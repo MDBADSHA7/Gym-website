@@ -18,3 +18,11 @@
     padding: 5px;
     text-decoration: none;
 }
+
+.name {
+    text-align: center;
+}
+
+div img {
+    margin-left: 700px;
+}

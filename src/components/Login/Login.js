@@ -35,7 +35,7 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                <p>New to Gym?<Link to="/register" className='text-danger pe-auto text-decoration-none' onclick={navigateRegister}> Please Register</Link></p>
+                <Link to="/login" className='login-btn' onclick={navigateRegister}>Please LogIn</Link>
             </Form>
         </div>
     );
