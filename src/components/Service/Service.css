@@ -5,3 +5,12 @@
     padding-bottom: 10px;
     text-align: center;
 }
+
+.price {
+    color: red;
+}
+
+.btn {
+    background-color: deeppink;
+    color: aliceblue;
+}

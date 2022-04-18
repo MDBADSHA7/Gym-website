@@ -4,6 +4,10 @@ h2 {
 }
 
 .blog-container {
+    margin-top: 10px;
     border: 5px solid;
     text-align: center;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }

@@ -1,0 +1,22 @@
+.image {
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 10px solid lawngreen;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width:570px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2px;
+    }
+}

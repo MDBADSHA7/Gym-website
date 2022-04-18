@@ -1,17 +1,16 @@
 
-import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './components/About/About';
-import Blogs from './components/Blogs/Blogs';
-import Header from './components/Header/Header';
-import Logout from './components/Header/Logout/Logout';
-import Home from './components/Home/Home';
-import Login from './components/Login/Login';
-import NotFound from './components/NotFound/NotFound';
-import Register from './components/Register/Register';
-import Services from './components/Services/Services';
+import Header from './Components/Header/Header';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import Services from './Services/Services';
+import About from './Components/About/About';
+import Login from './Components/Login/Login';
+import NotFound from './NotFound/NotFound';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
+
   return (
     <div>
       <Header></Header>
@@ -20,13 +19,10 @@ function App() {
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path="/logout" element={<Logout></Logout>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
-
-
       </Routes>
+
     </div>
   );
 }

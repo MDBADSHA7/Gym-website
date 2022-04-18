@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Stelleno 12Y",
-        "seller": "Samphony",
-        "price": 295,
+        "name": "Girl runner",
+        "description": "It ia a very useful instrument which is used for running.",
+        "price": 5000,
         "img": "https://t3.ftcdn.net/jpg/03/79/60/48/240_F_379604883_BxKJPYDvmctUb5c6Odyy0GP3u6UQGtpI.jpg"
     },
     {
         "id": 2,
-        "name": "Waltone 35C",
-        "seller": "Waltone",
-        "price": 210,
+        "name": "Boy runner",
+        "description": "I is a one type of gym instrument which can help fit our lage energy.",
+        "price": 20000,
         "img": "https://t4.ftcdn.net/jpg/02/17/51/67/240_F_217516764_qQ3vOqgX7ym28cPi4HOO6rMImJDh6k7n.jpg"
     },
     {
         "id": 3,
-        "name": "HTC pro - 38",
-        "seller": "HTC",
-        "price": 287,
+        "name": "Cycleing",
+        "description": "This trainer is ride a bye-cycle inside the gymnatiums.",
+        "price": 8000,
         "img": "https://t4.ftcdn.net/jpg/02/56/48/13/240_F_256481379_iaw5aBbMgWmzmR2VX2vyGVP7BTH70L7Y.jpg"
     },
     {
         "id": 4,
-        "name": "Samphony F6",
-        "seller": "Samphony",
-        "price": 138,
+        "name": "Clean gym instrument",
+        "description": "This trainer clean her gym instrument with liquid chemical.",
+        "price": 150,
         "img": "https://t3.ftcdn.net/jpg/03/83/33/22/240_F_383332241_LTCIz5f9mrfHMscavkqfVQHB3GOt5yAH.jpg"
     },
     {
         "id": 5,
-        "name": "Nokia-31V",
-        "seller": "Nokia",
-        "price": 205,
+        "name": "Chakti of iron metal",
+        "description": "Carry a heavy wait to earn eneargy hand ,chest ,leg and outher parts of body.",
+        "price": 2000,
         "img": "https://t3.ftcdn.net/jpg/00/54/90/26/240_F_54902690_CV2cLSbeXdnGJVwKq2meW5csk4QFiRQk.jpg"
     },
     {
         "id": 6,
-        "name": "Saomi note-8",
-        "seller": "Saomi",
-        "price": 300,
+        "name": "Cleaner",
+        "description": "Clean the gym instrument of the woner the gymnatiam with his won hand.",
+        "price": 3000,
         "img": "https://t3.ftcdn.net/jpg/03/79/60/50/240_F_379605010_Hw2eEUjxZrBZi1Y4KB4TWydcxtdh2z49.jpg"
     }
 ]

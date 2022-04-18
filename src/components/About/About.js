@@ -1,7 +1,6 @@
 import React from 'react';
 import image from '../../../src/1627405470870.jpg'
 import './About.css'
-
 const About = () => {
     return (
         <div className='container-badsha'>
