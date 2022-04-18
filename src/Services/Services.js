@@ -11,6 +11,7 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
+
     return (
         <div>
             <h2 className='services-title'>Our Services</h2>

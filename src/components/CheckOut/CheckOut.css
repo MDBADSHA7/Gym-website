@@ -1,0 +1,20 @@
+.Check-btn {
+    background-color: orangered;
+    color: aliceblue;
+    font-size: x-large;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 700px;
+}
+
+.login-btn {
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: x-large;
+    margin-left: 688px;
+    padding-top: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}

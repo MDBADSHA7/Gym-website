@@ -13,7 +13,7 @@ const ExtraSection = () => {
                 <img src={img2} alt="" />
                 <img src={img3} alt="" />
             </div>
-            <h1>If you want to admit our gym club, you wii get 255 discount!!!</h1>
+            <h1>If you want to admit our gym club, you wii get 25% discount!!!</h1>
         </div>
     );
 };

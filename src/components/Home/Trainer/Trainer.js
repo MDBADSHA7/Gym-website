@@ -8,7 +8,6 @@ const Trainer = ({ trainer }) => {
                 <div class="card-body">
                     <h5 class="card-title">{name}</h5>
                     <p class="card-text">It is gymnatium.It man a man healthy and bdy builder.It keeps our body fit.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div></div>
         </div >
     );
