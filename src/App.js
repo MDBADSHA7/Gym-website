@@ -4,6 +4,7 @@ import './App.css';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Blogs from './Components/Blogs/Blogs';
 import CheckOut from './Components/CheckOut/CheckOut';
+import Register from './Components/CheckOut/Register/Register';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home'
 import LogIn from './Components/LogIn/LogIn';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/checkout" element={<CheckOut></CheckOut>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/login" element={<LogIn></LogIn>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
 

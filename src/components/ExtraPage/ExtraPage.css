@@ -1,17 +1,26 @@
-.imgage-container {
-    margin-top: 500px;
-    padding-top: 10px;
+/* .image-container {
+    margin-bottom: 200px;
+    height: 5px;
     border: 5px solid lawngreen;
-    text-align: center;
-    margin-right: 50px;
+
+
+} */
+
+.test {
+    height: 400px;
+    border: 5px solid gold;
+    border-radius: 5px;
+    margin-top: 20px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .extra-image {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2px;
+    grid-gap: 1px;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media screen and (max-width:570px) {

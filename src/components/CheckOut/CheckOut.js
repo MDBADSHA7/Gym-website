@@ -26,7 +26,8 @@ const CheckOut = () => {
         <div className='checkout-container'>
             <button className='Check-btn' onClick={handleGoogleSignIn}>CheckOut</button>
             <br />
-            <Link to="/login" className='login-btn' onclick={navigateLogIn}>Please LogIn</Link>
+
+            <p className='question'>Already ChackOut?<Link to="/login" className='login-btn' onclick={navigateLogIn}>Please LogIn</Link></p>
             <h2 className='name'>My Name:{user.displayName}</h2>
             <img className='w-100 mx-auto p-20' src={user.photoURL} alt="" />
         </div>

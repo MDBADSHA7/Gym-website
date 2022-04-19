@@ -6,15 +6,17 @@ import img3 from '../../Images/images (3).jpg';
 import './ExtraPage.css'
 const ExtraPage = () => {
     return (
-        <div className='image-container'>
-            <h1 className='advertisement'>This is our advartisement</h1>
-            <div className='extra-image'>
-                <img src={img} alt="" />
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
+        <div className='test'>
+            <div className='image-container'>
+                <h1 className='advertisement'>This is our advartisement</h1>
+                <div className='extra-image'>
+                    <img src={img} alt="" />
+                    <img src={img1} alt="" />
+                    <img src={img2} alt="" />
+                    <img src={img3} alt="" />
+                </div>
+                <h1 className='discount'>If you want to admit our gym club, you wii get 25% discount!!!</h1>
             </div>
-            <h1 className='discount'>If you want to admit our gym club, you wii get 25% discount!!!</h1>
         </div>
     );
 };

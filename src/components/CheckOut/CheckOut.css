@@ -3,20 +3,35 @@
     margin-left: 700px;
     color: aliceblue;
     font-size: x-large;
-    margin-top: 20px;
+    margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
 }
 
+.Check-btn:hover {
+    color: black;
+    transition-duration: 3s;
+}
+
+.question {
+    margin-left: 530px;
+    font-size: xx-large;
+    color: mediumblue;
+}
+
 .login-btn {
     background-color: darkblue;
-    margin-left: 685px;
+    margin-left: 85px;
     color: aliceblue;
     font-size: x-large;
     border-radius: 5px;
     padding: 5px;
-    margin-top: -200px;
     text-decoration: none;
+}
+
+.login-btn:hover {
+    color: gold;
+    transition-duration: 3s;
 }
 
 .name {
