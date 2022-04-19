@@ -1,7 +1,7 @@
 import React from 'react';
+import './AboutMe.css'
 import image from '../../../src/1627405470870.jpg'
-import './About.css'
-const About = () => {
+const AboutMe = () => {
     return (
         <div className='container-badsha'>
             <h1>Name:Foysal Ahamed Badsha Bepari</h1>
@@ -11,4 +11,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutMe;

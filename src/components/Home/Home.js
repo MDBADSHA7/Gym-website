@@ -1,16 +1,15 @@
 import React from 'react';
-import Banner from '../Home/Trainers/Trainers';
-import Trainers from '../Home/Banner/Banner';
-import ExtraSection from '../../ExtraSection/ExtraSection';
-import Footer from '../../Footer/Footer'
-
+import ExtraPage from '../ExtraPage/ExtraPage';
+import Footer from '../Footer/Footer';
+import Trainers from '../Trainers/Trainers';
+import Banner from './Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <Trainers></Trainers>
             <Banner></Banner>
-            <ExtraSection></ExtraSection>
+            <Trainers></Trainers>
+            <ExtraPage></ExtraPage>
             <Footer></Footer>
         </div>
     );

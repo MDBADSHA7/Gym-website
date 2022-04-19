@@ -1,30 +1,29 @@
 
-import './App.css';
-import Header from './Components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import Services from './Services/Services';
-import About from './Components/About/About';
-import Login from './Components/Login/Login';
-import NotFound from './NotFound/NotFound';
+import './App.css';
+import AboutMe from './Components/AboutMe/AboutMe';
 import Blogs from './Components/Blogs/Blogs';
 import CheckOut from './Components/CheckOut/CheckOut';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home'
+import LogIn from './Components/LogIn/LogIn';
+import NotFound from './Components/NotFound/NotFound';
+import Services from './Components/Services/Services';
 
 function App() {
-
   return (
-    <div>
+    <div className="App">
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/services" element={<Services></Services>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
-        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/aboutme" element={<AboutMe></AboutMe>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/checkout" element={<CheckOut></CheckOut>}></Route>
+        <Route path="/login" element={<LogIn></LogIn>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
-      </Routes>
 
+      </Routes>
     </div>
   );
 }

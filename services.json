@@ -9,7 +9,7 @@
     {
         "id": 2,
         "name": "Boy runner",
-        "description": "I is a gym instrument which can help fit our lage energy.",
+        "description": "I is a one type of gym instrument which can help fit our lage energy.",
         "price": 20000,
         "img": "https://t4.ftcdn.net/jpg/02/17/51/67/240_F_217516764_qQ3vOqgX7ym28cPi4HOO6rMImJDh6k7n.jpg"
     },
@@ -22,7 +22,7 @@
     },
     {
         "id": 4,
-        "name": "Clean instrument",
+        "name": "Clean gym instrument",
         "description": "This trainer clean her gym instrument with liquid chemical.",
         "price": 150,
         "img": "https://t3.ftcdn.net/jpg/03/83/33/22/240_F_383332241_LTCIz5f9mrfHMscavkqfVQHB3GOt5yAH.jpg"

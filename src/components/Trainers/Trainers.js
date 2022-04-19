@@ -1,12 +1,12 @@
 import React from 'react';
-import './Trainers.css'
-import trainer1 from '../../../Images/trainer 2.jpg'
-import trainer2 from '../../../Images/download.jpg'
-import trainer3 from '../../../Images/trainer 3.jpg'
-import trainer4 from '../../../Images/trainer 4.jpg'
-import trainer5 from '../../../Images/trainer 5.jpg'
-import trainer6 from '../../../Images/trainer 6.jpg'
 import Trainer from '../Trainer/Trainer';
+import trainer1 from '../../Images/trainer 1.jpg'
+import trainer2 from '../../Images/trainer 2.jpg'
+import trainer3 from '../../Images/trainer 3.jpg'
+import trainer4 from '../../Images/trainer 4.jpg'
+import trainer5 from '../../Images/trainer 5.jpg'
+import trainer6 from '../../Images/trainer 6.jpg'
+import './Trainers.css'
 const trainers = [
     { id: 1, name: 'Rayhan', img: trainer1 },
     { id: 2, name: 'Robin', img: trainer2 },

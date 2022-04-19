@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Banner.css'
 import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../Images/banner 1.jpg'
@@ -6,14 +6,9 @@ import banner2 from '../../../Images/banner 2.jpg'
 import banner3 from '../../../Images/banner 3.jpg'
 
 const Banner = () => {
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
-    };
     return (
-        <div className='carosol-container'>
-            <Carousel activeIndex={index} onSelect={handleSelect}>
+        <div className='carosol-container '>
+            <Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -46,9 +41,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
