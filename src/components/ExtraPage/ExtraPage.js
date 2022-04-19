@@ -6,7 +6,7 @@ import img3 from '../../Images/images (3).jpg';
 import './ExtraPage.css'
 const ExtraPage = () => {
     return (
-        <div className='test'>
+        <div className='extrasection-container'>
             <div className='image-container'>
                 <h1 className='advertisement'>This is our advartisement</h1>
                 <div className='extra-image'>
