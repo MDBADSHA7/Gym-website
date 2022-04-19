@@ -19,14 +19,14 @@ const CheckOut = () => {
                 console.log(error)
             })
     }
-    const navigateRegister = event => {
+    const navigateLogIn = event => {
         Navigate('/register');
     }
     return (
         <div className='checkout-container'>
             <button className='Check-btn' onClick={handleGoogleSignIn}>CheckOut</button>
             <br />
-            <Link to="/login" className='login-btn' onclick={navigateRegister}>Please LogIn</Link>
+            <Link to="/login" className='login-btn' onclick={navigateLogIn}>Please LogIn</Link>
             <h2 className='name'>My Name:{user.displayName}</h2>
             <img className='w-100 mx-auto p-20' src={user.photoURL} alt="" />
         </div>
